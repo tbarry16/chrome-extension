@@ -1,6 +1,13 @@
 {
-  "name": "Getting Started Example",
-  "description": "Build an Extension!",
+  "name": "Dogs will make you happy!",
+  "description": "An extension to provide you with smiles by looking at dogs!",
   "version": "1.0",
-  "manifest_version": 3
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "alarms", "notifications"],
+  "action": {
+    "default_popup": "popup.html"
+  }
 }

@@ -1,4 +1,4 @@
-# chrome-extension-CSHackathon
+# chrome-extension
 
 Repository for my first Google Chrome Extension
 
